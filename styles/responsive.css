@@ -30,4 +30,9 @@
         font-size: 32px;
         margin-top: 20px;
     }
+
+    .logo-container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }
