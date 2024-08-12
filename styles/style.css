@@ -23,6 +23,8 @@ body{
     background: rgb(224, 44, 109);
     padding: 10px 24px 10px 24px;
     border: none;
+    display: flex;
+    gap: 10px;
 }
 
 
