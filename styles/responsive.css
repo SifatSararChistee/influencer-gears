@@ -1,0 +1,33 @@
+@media screen and (max-width:576px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    #hamburger-menu{
+        display: block;
+    }
+    
+    #cart{
+        display: block;
+    }
+
+    .nav-options{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .banner-content{
+        width:100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-content h1{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+}

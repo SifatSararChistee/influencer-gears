@@ -15,8 +15,18 @@ body{
     display:flex ;
 }
 
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
 
 
+/* *navbar section */
 
 .nav-bar{
     width: 90%;
@@ -25,6 +35,14 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
+}
+
+#hamburger-menu{
+    display: none;
+}
+
+#cart{
+    display: none;
 }
 
 .nav-bar h3{
@@ -38,4 +56,46 @@ body{
     font-size: 16px;
     font-weight: 600;
     gap: 30px;
+}
+
+/* *banner section */
+
+.banner-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.banner-content{
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-content h1{
+    color: rgb(58, 58, 58);
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-content p{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-wrap: balance;
+}
+
+.banner-img{
+    background-image: url(../assets/images/Circle\ design.svg);
+    width: 40%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-img img{
+    width: 100%;
 }
